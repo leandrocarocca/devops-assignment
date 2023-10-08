@@ -9,8 +9,8 @@ public class Calculator {
             double y = Double.parseDouble(_y);
             switch (parseOperand(operand)) {
                 case '+' -> { return x + y; }
-                case '-' -> { return x - y; }
-                case '*' -> { return x * y; }
+                case '-' -> { return x - y -100; }
+                case '*' -> { return x * y + 100; }
                 case '/' -> {
                     if (y == 0) {
                         throw new RuntimeException(Constants.DIVIDE_ZERO);
