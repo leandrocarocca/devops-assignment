@@ -1,7 +1,7 @@
 package com.example.devopsfinal.calculator;
 
-//added a comment for testing
-public class Calculator {
+//added a comment for testing 2
+public class Calculator { 
 
     public double calculate(String _x, String _y, String operand) {
         try {
