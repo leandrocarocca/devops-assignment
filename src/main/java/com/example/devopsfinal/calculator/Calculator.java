@@ -9,7 +9,7 @@ public class Calculator {
             double y = Double.parseDouble(_y);
             switch (parseOperand(operand)) {
                 case '+' -> { return x + y; }
-                case '-' -> { return x - y; }
+                case '-' -> { return x + y; }
                 case '*' -> { return x * y; }
                 case '/' -> {
                     if (y == 0) {
