@@ -7,7 +7,7 @@
 name: Build and test with Gradle
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
